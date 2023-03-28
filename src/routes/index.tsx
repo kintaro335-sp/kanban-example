@@ -5,7 +5,7 @@ export default function Router() {
   return useRoutes([
     {
       path: '/',
-      element: <>Nothing to see here yet</>
+      element: <Kanban />
     },
     {
       path: '/kanban',
